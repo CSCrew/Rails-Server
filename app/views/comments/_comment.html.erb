@@ -1,0 +1,14 @@
+<p>
+  <b>Commenter:</b>
+  <%= comment.commenter %>
+ </p>
+<p>
+  <b>Comment:</b> <!-- Girl look at that -->
+  <%= comment.body %>
+</p>
+<p>
+ <%= link_to 'SPAM',[comment.post, comment],
+	:confirm => 'Are you fo shizzle?',
+ 	:method => :delete%>
+</p>
+

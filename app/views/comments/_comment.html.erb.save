@@ -1,0 +1,7 @@
+<p>
+  <b>Commenter:</b>
+  <<p>
+  <b>Commenter:</b>
+  <%= comment.commenter %>
+ </p>
+%
